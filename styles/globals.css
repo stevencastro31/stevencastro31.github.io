@@ -26,6 +26,21 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.cs-directory > ul > li {
-  @apply px-4
+.cs-title > ul > li {
+  @apply px-4 h-full first:ml-8 hover:bg-cod-gray-900 flex items-center rounded-md
 }
+
+.cs-directory > ul > li {
+  @apply px-4 h-full last:mr-8 hover:bg-cod-gray-900 flex items-center rounded-md
+}
+
+.active {
+  @apply translate-y-0
+}
+
+.inactive {
+  @apply -translate-y-14
+}
+
+
+
