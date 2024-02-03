@@ -7,3 +7,4 @@
 <LeadSection/>
 <AboutSection/>
 <ExperienceSection/>
+<AboutSection/>
