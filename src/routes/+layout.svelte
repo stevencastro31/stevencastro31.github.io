@@ -1,27 +1,17 @@
 <script>
     import "../app.css";
-    import NavButton from "$lib/components/NavButton.svelte";
-
-    let navOptions = [
-        { link: '/', title: 'About' },
-        { link: '/', title: 'Exprience' },
-        { link: '/', title: 'Education' },
-        { link: '/', title: 'Project' },
-        { link: '/', title: 'Skills' },
-        { link: '/', title: 'Contact' },
-    ];
+    import NavBar from "$lib/components/NavBar.svelte";
 </script>
 
-<nav class="fixed top-0 w-full bg-white h-16">
-    <div class="h-full w-full flex justify-center items-center">
-        {#each navOptions as navOption}
-            <NavButton data={navOption}/>
-        {/each}
-    </div>
-</nav>
-
-<slot></slot>
+<div class="font-lato">
+    <NavBar/>
+    <slot></slot>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</div>
 
 <style>
-
+    @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');                /* Remove? */
+    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Prompt&display=swap');
 </style>

@@ -5,8 +5,4 @@
      export let data;
 </script>
 
-<a href={data.link} class="p-5 h-full w-fit rounded-sm hover:bg-slate-500 text-center items-center">{data.title}</a>
-
-<style>
-
-</style>
+<a href={data.link} class="h-full w-fit p-4 rounded-sm hover:bg-gray-100 text-center">{data.title}</a>
