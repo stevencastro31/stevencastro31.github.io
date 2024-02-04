@@ -1,6 +1,4 @@
 <script>
-    import { scale } from 'svelte/transition';
-    import { quadOut } from 'svelte/easing';
     import NavButton from './NavButton.svelte';
     
     export let navOptions
@@ -8,11 +6,10 @@
 </script>
 
 {#if open}
-    {#each navOptions as navOption, i}
-        <NavButton data={navOption} isMenu=true index={i}/>
+    <!-- <div class="h-16 w-screen invisible"></div> -->
+    {#each navOptions as navOption}
+        <NavButton data={navOption} isMenu=true/>
     {/each}
-
-    <hr class="z-20 bg-black" transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
 {/if}
 
 <style>

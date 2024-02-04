@@ -9,7 +9,22 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'illia-plakhuta' : "url('/img/illia-plakhuta-n8St7X9HgLA-unsplashs2.jpg')",
+        'illia-plakhuta' : "url('/img/illia-plakhuta-lead-background.jpg')",
+      },
+      colors: {
+        'bunker': {
+          '50': '#f7f7f8',
+          '100': '#efeef0',
+          '200': '#dad8df',
+          '300': '#b8b7c2',
+          '400': '#928fa1',
+          '500': '#757186',
+          '600': '#5f5b6e',
+          '700': '#4e4b59',
+          '800': '#42404c',
+          '900': '#3b3842',
+          '950': '#1a191d',
+        },
       }
     },
   },

@@ -7,5 +7,9 @@
 
 <LeadSection/>
 <AboutSection/>
-<EducationSection/>
+<!-- <EducationSection/> -->
 <!-- <ExperienceSection/> -->
+<!-- <AboutSection/>
+
+<AboutSection/> -->
+

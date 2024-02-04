@@ -16,18 +16,20 @@
     ];
 </script>   
 
-<nav class="lg:h-16 sm:h-fit w-screen fixed top-0 bg-white opacity-95 border-b-4 z-10">
-    <!-- Desktop -->
-    <div class="h-full w-full hidden sm:flex justify-center items-center">
+<nav class="bg-white h-16 w-screen fixed top-0 z-50 opacity-95 border-b-4">
+    <div class="h-full w-full hidden md:flex justify-center">
         {#each navOptions as navOption}
             <NavButton data={navOption}/>
         {/each}
     </div>
 
-    <!-- Mobile -->
-    <div class="h-full w-full flex flex-col sm:hidden">
-        <Hamburger bind:open --padding="1rem" />
-        <Menu bind:open {navOptions}/>
+    <div class="h-full w-full block md:hidden">
+        <Hamburger bind:open --padding="1rem"/>
+        <div class="h-fit w-3/4 flex flex-col">
+            <Menu bind:open {navOptions}/>
+        </div>
     </div>
 </nav>
+
+
 

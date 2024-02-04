@@ -9,7 +9,7 @@
     }
 </script>
 
-<button on:click={hello}>{title}</button>
+<button class="animate-shake" on:click={hello}>{title}</button>
 
 <style>
     button {
