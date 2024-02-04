@@ -9,12 +9,10 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'annie-spratt' : "url('/img/annie-spratt-6a3nqQ1YwBw-unsplash.jpg')",
-        'illia-plakhuta' : "url('/img/illia-plakhuta-n8St7X9HgLA-unsplash.jpg')",
-        'roman-skrypnyk' : "url('/img/roman-skrypnyk-9dWT86h8dgo-unsplash.jpg')",
+        'illia-plakhuta' : "url('/img/illia-plakhuta-n8St7X9HgLA-unsplashs2.jpg')",
       }
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animated')],
 }
 
