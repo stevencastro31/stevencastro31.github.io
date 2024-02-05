@@ -8,10 +8,6 @@
 {#if open}
     <!-- <div class="h-16 w-screen invisible"></div> -->
     {#each navOptions as navOption}
-        <NavButton data={navOption} isMenu=true/>
+        <NavButton data={navOption} isMenu=true bind:open/>
     {/each}
 {/if}
-
-<style>
-
-</style>

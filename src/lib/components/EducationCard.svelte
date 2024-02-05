@@ -1,20 +1,18 @@
 <script>
-    import DLSUImage from "$lib/assets/schools/dlsu.png?w=250&h=250&format=webp";
-    import CKSCImage from "$lib/assets/schools/cksc.png?w=250&h=250&format=webp"
-
+    export let delay = 1;
     export let educationDetail;
+    delay = delay * 150;
 </script>
 
-<div class="flex flex-col my-2 items-center border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-200 bg-white" data-aos="fade-up" data-aos-delay="250">
-    <div class="flex flex-col justify-between p-4 leading-normal w-96">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight">{educationDetail.school}</h5>
-        <p class="mb-2">{educationDetail.time}</p>
-        <p class="mb-2">{educationDetail.degree}</p>
+<div class="w-full lg:w-3/5 bg-white rounded-tr-3xl rounded-bl-xl shadow-lg mb-4 border-t-8 border-{educationDetail.color}" data-aos="fade-right" data-aos-delay={delay} data-aos-offset="300">
+    <div class="flex flex-col p-4 w-full">
+        <div class="flex justify-between">
+            <h5 class="text-xl font-bold">{educationDetail.school}</h5>
+            <img class="max-h-8 max-w-8 pointer-events-none select-none" src={educationDetail.image} alt="icon">
+        </div>
+        <!-- <p class="text-gray-600 mt-2">{educationDetail.address}</p> -->
+        <p class="text-gray-600 mb-2">{educationDetail.time}</p>
+        <p class="text-gray-600">{educationDetail.degree}</p>
+        <p class="text-gray-600">{educationDetail.major}</p>
     </div>
-
-    {#if educationDetail.type === 'tertiary'}
-        <img class="object-cover w-full rounded-t-lg h-80 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={DLSUImage} alt="De La Salle University">
-    {:else}
-        <img class="object-cover w-full rounded-t-lg h-80 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={CKSCImage} alt="Chiang Kai Shek College">
-    {/if}
-</div>  
+</div>

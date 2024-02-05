@@ -7,7 +7,7 @@
     <NavBar/>
     <slot></slot>
     <footer>
-        <h1>Footer</h1>
+        <div class="h-[50vh] bg-blue-100">Footer</div>
     </footer>
 </div>
 

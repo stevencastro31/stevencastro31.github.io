@@ -5,19 +5,18 @@
 </script>
 
 <Section id="about">
-    <div class="pt-16 h-fit w-fit bg-white">
-        <div class="lg:h-[65vh] sm:h-fit w-full lg:grid sm:flex lg:grid-rows-1 lg:grid-cols-7 sm:flex-col-reverse lg:border-t-4 lg:border-b-4 mb-8 border-dotted border-gray-400">
-            <div class="h-full col-span-2 col-start-2 flex justify-center items-center sm:mt-4">
-                <img class="rounded-lg shadow-md" src={Image} alt="test">
-            </div>
-            <div class="h-full col-span-4 flex flex-col flex-end justify-center items-left">
-                <h1 class="h-fit w-3/4 p-4 ml-16 border-b-4 text-4xl text-left font-bold" data-aos="fade-up">About Me</h1>
-                <p class="h-fit w-3/4 ml-16 p-4 text-gray-700" data-aos="fade-up" data-aos-delay="250">
-                    Hello! I'm a dedicated developer passionate about crafting exceptional digital experiences. 
-                    With expertise in both front-end and back-end technologies, I thrive on challenges and value collaboration. 
-                    Let's create something amazing together!
-                </p>
-            </div>  
+    <div class="flex flex-col md:flex-row justify-center items-center py-16">
+        <img class="h-auto md:h-64 lg:h-auto m-8" src={Image} alt="test">
+        <div class="h-fit w-auto lg:w-[40vw] mx-4 lg:ml-16 lg:mr-8 my-8">
+            <h1 class="p-4 text-4xl text-left font-bold border-b-4" data-aos="fade-up">About Me</h1>
+            <p class="p-4 text-gray-700" data-aos="fade-up" data-aos-delay="250">
+               Hello! I'm a dedicated developer passionate about crafting exceptional digital experiences. 
+               With expertise in both front-end and back-end technologies, I thrive on challenges and value collaboration. 
+               Let's create something amazing together! asdasdasasd asdas dasd asd as dass
+            </p>
+            <p class="px-4 pb-4 text-gray-700" data-aos="fade-up" data-aos-delay="350"> 
+                I have have experience in blah blah blah...
+            </p>
         </div>
     </div>
 </Section>
