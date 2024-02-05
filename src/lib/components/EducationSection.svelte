@@ -12,7 +12,7 @@
             degree: "Bachelor of Science in Computer Science",
             major: "Major in Software Technology",
             image: DLSUImage,
-            color: "green-600",
+            color: "green",
         }, {
             school: "Chiang Kai Shek College",
             address: "1477 Narra St, Tondo, Manila, 1012 Metro Manila",
@@ -20,7 +20,7 @@
             degree: "Senior Highschool Diploma",
             major: "STEM Graduate",
             image: CKSCImage,
-            color: "blue-500",
+            color: "blue",
         }, {
             school: "Chiang Kai Shek College",
             address: "1274 Padre Algue St, Tondo, Manila, 1012 Metro Manila",
@@ -28,7 +28,7 @@
             degree: "Gradeschool, Junior Highschool Diplomas",
             major: "",
             image: CKSCImage,
-            color: "blue-500",
+            color: "blue",
         }
     ];
 </script>
