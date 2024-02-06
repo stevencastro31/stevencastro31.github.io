@@ -7,11 +7,11 @@
     let navOptions = [
         { link: '#lead', title: 'Home' },
         { link: '#about', title: 'About' },
-        { link: '#experience', title: 'Experience' },
         { link: '#education', title: 'Education' },
-        { link: '#projects', title: 'Projects' },
-        { link: '#skills', title: 'Skills' },
-        { link: '#contact', title: 'Contact' },
+        { link: '#skills', title: 'Skills' }, 
+        { link: '#experience', title: 'Experience' },
+        // { link: '#projects', title: 'Projects' },
+        // { link: '#contact', title: 'Contact' },
         // { link: '#source', title: 'Source' },                    // Different Page?
     ];
 </script>   

@@ -7,11 +7,7 @@
     let isGreen = educationDetail.color === 'green';
 </script>
 
-
-
-
-
-<div class="w-full lg:w-3/5 bg-white rounded-tr-3xl rounded-bl-xl shadow-lg mb-4 border-t-8" class:border-green-600={isGreen} class:border-blue-500={isBlue} data-aos="fade-right" data-aos-delay={delay} data-aos-offset="300">
+<div class="w-full md:w-96 bg-white rounded-tr-3xl rounded-bl-xl shadow-lg mb-4 border-t-8" class:border-green-600={isGreen} class:border-blue-500={isBlue} data-aos="fade-right" data-aos-delay={delay} data-aos-offset="300">
     <div class="flex flex-col p-4 w-full">
         <div class="flex justify-between">
             <h5 class="text-xl font-bold">{educationDetail.school}</h5>
