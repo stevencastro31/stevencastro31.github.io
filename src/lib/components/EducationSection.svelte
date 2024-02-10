@@ -37,7 +37,7 @@
     <div class="h-auto w-screen py-16">
         <div class="flex lg:grid flex-col-reverse grid-cols-7 gap-8">  
             <div class="col-span-4 flex flex-col justify-center items-center xl:items-end p-8">
-                <h1 class="p-4 text-4xl text-center xl:text-right font-bold border-b-4 mb-8 w-3/5" data-aos="fade-up" data-aos-offset="250">Education</h1>
+                <h1 class="p-4 text-4xl text-center xl:text-right font-bold rounded-br-2xl border-b-4 mb-8 w-3/5" data-aos="fade-up" data-aos-offset="250">Education</h1>
                 {#each educationDetails as educationDetail, i} 
                     <EducationCard {educationDetail} delay={i}/>
                 {/each}

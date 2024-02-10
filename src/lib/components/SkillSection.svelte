@@ -13,13 +13,15 @@
     }, { 
         title: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     }, {
+        title: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    }, {
         title: "Svelte", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
     }, {
         title: "NodeJS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
     }, {    
-        title: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-    }, {    
         title: "Express", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    }, {    
+        title: "SvelteKit", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
     }];
 
     let languages = [{
@@ -54,6 +56,8 @@
         title: "Dialogflow", icon: DialogflowIcon,
     }, {
         title: "DiscordJS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg",
+    }, {
+        title: "OpenGL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-original.svg",
     }];
 
     let skills = [...languages, ...web_dev, ...databases, ...source, ...apis];
@@ -63,5 +67,6 @@
     <div class="h-auto w-screen py-16 bg-bunker-950 flex flex-col items-center">
         <h1 class="text-center text-4xl text-white font-bold mb-8 p-4 border-b-2">Skills</h1>
         <SkillBoard {skills}/>          
+        <h2 class="p-4 text-gray-200 text-center" data-aos="fade-up" data-aos-delay={skills.length * 50}>Languages, Tooling, and Frameworks I'm familiar with.</h2>
     </div>
 </Section>

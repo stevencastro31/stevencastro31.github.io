@@ -1,12 +1,13 @@
 <script>
     // Source: https://svelte.dev/repl/f2397020cba34f5e9cb96336005f3435?version=3.37.0
-	export let skills;    
+	export let skills;
+	export let interval = 50;
     import { flip } from 'svelte/animate'
 	import SkillCard from './SkillCard.svelte';
     
 	const dragDuration = 300
 	let cards = Array(skills.length).fill().map((_, i) => i);
-	let delays = Array(skills.length).fill().map((_, i) => i * 50);
+	let delays = Array(skills.length).fill().map((_, i) => i * interval);
 	let draggingCard;
 	let animatingCards = new Set();
 

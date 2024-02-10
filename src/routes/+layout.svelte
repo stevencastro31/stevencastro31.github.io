@@ -1,14 +1,13 @@
 <script>
     import "../app.css";
     import NavBar from "$lib/components/NavBar.svelte";
+    import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <div class="font-lato">
     <NavBar/>
     <slot></slot>
-    <footer>
-        <div class="h-[50vh] bg-blue-100">Footer</div>
-    </footer>
+    <Footer/>
 </div>
 
 <style>

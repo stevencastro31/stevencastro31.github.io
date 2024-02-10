@@ -9,7 +9,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'illia-plakhuta' : "url('/img/illia-plakhuta-lead-background.jpg')",
+        'illia-plakhuta' : "url('/img/illia-plakhuta-lead-background.webp')",
       },
       colors: {
         'bunker': {
