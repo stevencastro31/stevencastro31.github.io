@@ -5,7 +5,8 @@ export default {
   theme: {
     fontFamily: {
       prompt: ['"Prompt"', ...defaultTheme.fontFamily.sans],
-      lato: ['"Lato"', ...defaultTheme.fontFamily.sans]
+      lato: ['"Lato"', ...defaultTheme.fontFamily.sans],
+      unbounded: ['"Unbounded"', ...defaultTheme.fontFamily.sans]
     },
     extend: {
       backgroundImage: {
