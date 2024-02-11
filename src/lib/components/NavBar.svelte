@@ -5,14 +5,13 @@
 
     let open;
     let navOptions = [
-        { link: '#lead', title: 'Home' },
-        { link: '#about', title: 'About' },
-        { link: '#education', title: 'Education' },
-        { link: '#skills', title: 'Skills' }, 
-        { link: '#experience', title: 'Experience' },
-        { link: '#contact', title: 'Contact' },
-        // { link: '#projects', title: 'Projects' },
-        // { link: '#source', title: 'Source' },                    // Different Page?
+        { link: '/#lead', title: 'Home' },
+        { link: '/#about', title: 'About' },
+        { link: '/#education', title: 'Education' },
+        { link: '/#skills', title: 'Skills' }, 
+        { link: '/#experience', title: 'Experience' },
+        { link: '/#contact', title: 'Contact' },
+        { link: '/materials', title: 'Stack' },
     ];
 </script>   
 
@@ -20,7 +19,7 @@
     <!-- Desktop -->
     <div class="h-full w-full hidden md:flex justify-between">
         <div class="flex pl-16">
-            <NavButton data={{ link: '#lead', title: 'Steven Castro'}}/>
+            <NavButton data={{ link: '/#lead', title: 'Steven Castro'}}/>
         </div>
 
         <div class="flex pr-32">

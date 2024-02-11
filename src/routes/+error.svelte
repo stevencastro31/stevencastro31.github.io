@@ -1,3 +1,7 @@
-<div class="h-[82vh] w-screen">
-    <h1 class="bg-bunker-950 h-full top-3/10 left-30 absolute text-4xl">Something went wrong :(</h1>
+<div class="h-[80vh]  mt-16">
+    <div class="h-full flex xl:grid grid-cols-7">
+        <div class="h-full col-span-3 col-start-2 flex flex-col justify-center">
+            <h1 class="text-5xl xl:text-7xl font-bold p-8 animate-fade-right">This page doesn't exist :(</h1>
+        </div>
+    </div>
 </div>
