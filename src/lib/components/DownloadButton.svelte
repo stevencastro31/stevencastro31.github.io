@@ -11,7 +11,7 @@
     // }
 </script>
 
-<button on:click={() => goto(url)} class="animate-shake">
+<button on:click={() => window.open(url)} class="animate-shake">
     {title}
 </button>
 
