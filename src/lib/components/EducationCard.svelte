@@ -3,11 +3,14 @@
     export let educationDetail;
     delay = delay * 150;
 
-    let isBlue = educationDetail.color === 'blue';
-    let isGreen = educationDetail.color === 'green';
+    let colors = {
+        blue: "border-blue-500",
+        green: "border-green-600",
+    };
+    // class:border-green-600={isGreen} class:border-blue-500={isBlue} 
 </script>
 
-<div class="w-full md:w-96 bg-white rounded-tl-3xl rounded-br-xl shadow-lg mb-4 border-t-8" class:border-green-600={isGreen} class:border-blue-500={isBlue} data-aos="fade-right" data-aos-delay={delay} data-aos-offset="300">
+<div class={`w-full md:w-[480px] bg-white rounded-tl-3xl rounded-br-xl shadow-lg mb-4 border-t-8 ${colors[educationDetail.color.trim()] ?? "border-gray-300"}`} data-aos="fade-right" data-aos-delay={delay} data-aos-offset="300">
     <div class="flex flex-col p-4 w-full">
         <div class="flex justify-between">
             <h5 class="text-xl font-bold">{educationDetail.school}</h5>

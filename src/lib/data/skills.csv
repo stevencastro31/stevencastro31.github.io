@@ -1,0 +1,42 @@
+title|icon
+
+### Web Development
+HTML5|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg
+CSS3|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg
+TailwindCSS|/src/lib/svg/Tailwind%20CSS.svg
+TypeScript|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg
+NodeJS|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
+
+### Programming Languages
+.NET|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg
+.NET Core|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg
+C++|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg
+C#|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg
+C|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg
+Java|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
+JavaScript|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg
+Python|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg
+
+### Frameworks
+Window Forms|/src/lib/svg/WinForms.svg
+WPF|/src/lib/svg/WPF.svg
+React|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
+Svelte|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg
+Express|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg
+SvelteKit|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg
+
+### Databases
+MySQL|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg
+MongoDB|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
+Firebase|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg
+
+### Source Control
+Git|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg
+Docker|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg
+Github|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg
+
+### APIs, Components, Library
+Dialogflow|/src/lib/svg/Dialogflow.svg
+DiscordJS|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg
+OpenGL|https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-original.svg
+DevExpress|/src/lib/svg/DevExpress.svg

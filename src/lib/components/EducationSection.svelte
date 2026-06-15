@@ -1,36 +1,15 @@
 <script>
     import Section from "$lib/components/Section.svelte";
     import EducationCard from "./EducationCard.svelte";
-    import DLSUImage from "$lib/assets/schools/dlsu.png?w=300&h=300&format=webp";
-    import CKSCImage from "$lib/assets/schools/cksc.png?w=300&h=300&format=webp";
     import StudentImage from "$lib/assets/illust/loosedrawing/1150.png?w=500&h=600&format=webp";
+    import CSV from '$lib/data/education.csv?raw';
 
-    let educationDetails = [{
-            school: "De La Salle University Manila",
-            address: "2401 Taft Ave, Malate, Manila, 1004 Metro Manila",
-            time: "Sept 2019 - Dec 2023",
-            degree: "Bachelor of Science in Computer Science",
-            major: "Major in Software Technology",
-            image: DLSUImage,
-            color: "green",
-        }, {
-            school: "Chiang Kai Shek College",
-            address: "1477 Narra St, Tondo, Manila, 1012 Metro Manila",
-            time: "2014 - Apr 2019",
-            degree: "Senior Highschool Diploma",
-            major: "STEM Graduate",
-            image: CKSCImage,
-            color: "blue",
-        }, {
-            school: "Chiang Kai Shek College",
-            address: "1274 Padre Algue St, Tondo, Manila, 1012 Metro Manila",
-            time: "2008 - 2013",
-            degree: "Gradeschool, Junior Highschool Diplomas",
-            major: "",
-            image: CKSCImage,
-            color: "blue",
-        }
-    ];
+    let educationDetails = [];
+    let data = CSV.trim().split('\n').slice(1).map(line => { 
+        let [item1, item2, item3, item4, item5, item6, item7] = line.split('|');
+        return { school: item1, address: item2, time: item3, degree: item4, major: item5, image: item6, color: item7 };
+    }).filter(exp => exp.school && exp.address && exp.time && exp.degree && exp.major && exp.image && exp.color);
+    educationDetails = [...data];
 </script>
 
 <Section id="education">

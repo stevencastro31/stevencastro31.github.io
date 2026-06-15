@@ -3,13 +3,17 @@
 	 * @type {any}
 	 */
      export let title;
+     export let url;
+     import { goto } from '$app/navigation';
 
-    function hello() {
-        alert("Hello World");
-    }
+    // function hello() {
+    //     alert("Hello World");
+    // }
 </script>
 
-<button class="animate-shake" on:click={hello}>{title}</button>
+<button on:click={() => goto(url)} class="animate-shake">
+    {title}
+</button>
 
 <style>
     button {

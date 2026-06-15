@@ -2,20 +2,14 @@
     import Section from "$lib/components/Section.svelte";
     import ExperienceImage from "$lib/assets/illust/loosedrawing/987.png?w=500&h=600&format=webp";
     import ExperienceCard from "./ExperienceCard.svelte";
+    import CSV from '$lib/data/experience.csv?raw';
 
-    let example =  {role: "Role", color: "orange", company: "company", year: "2000"};
-    let experienceDetails = [{
-            role: "Clerical Worker",
-            color: "",
-            company: "Eastworld Sales Philippines",
-            year: "(2019)",     
-        }, {
-            role: "Dialogflow Developer",
-            color: "orange",
-            company: "TE3D House – AdRIC Research Center",
-            year: "(2023)",
-        }
-    ];
+    let experienceDetails = [];
+    let data = CSV.trim().split('\n').slice(1).map(line => { 
+        let [item1, item2, item3, item4] = line.split('|');
+        return { role: item1, color: item2, company: item3, year: item4 };
+    }).filter(exp => exp.role && exp.color && exp.company && exp.year);
+    experienceDetails = [...data];
 </script>
 
 <Section id="experience">

@@ -1,0 +1,5 @@
+school,address,time,degree,major,image,color
+
+De La Salle University Manila|2401 Taft Ave, Malate, Manila, 1004 Metro Manila|Sept 2019 - Dec 2023|Bachelor of Science in Computer Science|Major in Software Technology|/src/lib/assets/schools/dlsu.png?w=300&h=300&format=webp|green
+Chiang Kai Shek College|1477 Narra St, Tondo, Manila, 1012 Metro Manila|2014 - Apr 2019|Senior Highschool Diploma|STEM Graduate|/src/lib/assets/schools/cksc.png?w=300&h=300&format=webp|blue
+Chiang Kai Shek College|1274 Padre Algue St, Tondo, Manila, 1012 Metro Manila|2008 - 2013|Gradeschool, Junior Highschool Diplomas| |/src/lib/assets/schools/cksc.png?w=300&h=300&format=webp|blue
