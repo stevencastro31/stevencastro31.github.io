@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="128" height="128">
+  <rect x="2" y="2" width="28" height="28" rx="1" fill="#4E4E4E" stroke="#CCCCCC" stroke-width="1.5" />
+  <line x1="13" y1="2" x2="13" y2="30" stroke="#CCCCCC" stroke-width="1.5" />
+  <line x1="2" y1="9" x2="13" y2="9" stroke="#CCCCCC" stroke-width="1.5" />
+  <line x1="2" y1="21" x2="13" y2="21" stroke="#CCCCCC" stroke-width="1.5" />
+  <line x1="7" y1="21" x2="7" y2="30" stroke="#CCCCCC" stroke-width="1.5" />
+  <line x1="13" y1="18" x2="30" y2="18" stroke="#CCCCCC" stroke-width="1.5" />
+  <defs>
+    <linearGradient id="wpfRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF5252" />
+      <stop offset="100%" stop-color="#C62828" />
+    </linearGradient>
+    <linearGradient id="wpfYellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD54F" />
+      <stop offset="100%" stop-color="#F57F17" />
+    </linearGradient>
+    <linearGradient id="wpfBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#64B5F6" />
+      <stop offset="100%" stop-color="#1565C0" />
+    </linearGradient>
+  </defs>
+  <rect x="3.5" y="10.5" width="8" height="9" fill="url(#wpfRed)" rx="0.5" />
+  <rect x="14.5" y="3.5" width="14" height="13" fill="url(#wpfYellow)" rx="0.5" />
+  <rect x="14.5" y="19.5" width="14" height="9" fill="url(#wpfBlue)" rx="0.5" />
+</svg>
