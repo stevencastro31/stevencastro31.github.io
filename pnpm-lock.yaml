@@ -11,6 +11,9 @@ importers:
       gh-pages:
         specifier: ^6.3.0
         version: 6.3.0
+      svelte-hamburgers:
+        specifier: ^5.0.0
+        version: 5.0.0(svelte@5.57.0(@typescript-eslint/types@8.70.0))
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -1301,6 +1304,11 @@ packages:
       svelte:
         optional: true
 
+  svelte-hamburgers@5.0.0:
+    resolution: {integrity: sha512-MMb47VCozKDgn/jtmeqw+CbI3cZmkDXd/FG3VCkReMdw2YCSOaWYLsqsXiWTWoQE/oSmw1vH/Tm5mChqlsldHQ==}
+    peerDependencies:
+      svelte: ^5.0.0
+
   svelte@5.57.0:
     resolution: {integrity: sha512-NdbDn7fl4be1ViUG0oq/lvG6OZy3oENolV2ONjiqqsfVoeAfzaQAKUcEX3MrQod/Bebv1PgwET9rfXhgn9s4Kg==}
     engines: {node: '>=18'}
@@ -2481,6 +2489,10 @@ snapshots:
       postcss-selector-parser: 7.1.6
       semver: 7.8.5
     optionalDependencies:
+      svelte: 5.57.0(@typescript-eslint/types@8.70.0)
+
+  svelte-hamburgers@5.0.0(svelte@5.57.0(@typescript-eslint/types@8.70.0)):
+    dependencies:
       svelte: 5.57.0(@typescript-eslint/types@8.70.0)
 
   svelte@5.57.0(@typescript-eslint/types@8.70.0):

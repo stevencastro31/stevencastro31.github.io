@@ -4,7 +4,7 @@
     import type { SkillInfo } from '../types/SkillInfo';
 	import SkillCard from './SkillCard.svelte';
 
-    let { skills } : { skills: SkillInfo[] } = $props();
+    let { skills, isCenter = true , isMini = false} : { skills: SkillInfo[], isCenter?: boolean, isMini?: boolean } = $props();
 	const dragDuration = 300
 	// svelte-ignore state_referenced_locally
 	const cards: number[] = $state(Array.from({ length: skills.length }, (_, i) => i));
@@ -36,10 +36,12 @@
 <!-- svelte-ignore event_directive_deprecated -->
 <!-- credit: https://svelte.dev/repl/f2397020cba34f5e9cb96336005f3435?version=3.37.0 -->
 
-<div class="flex flex-wrap justify-center w-4/5 lg:w-3/5">
+<!-- w-4/5 lg:w-3/5 -->
+
+<div class="flex flex-wrap w-full" class:justify-center={isCenter}>
 	{#each cards as card (card)}
 		<div animate:flip={{ duration: dragDuration }} on:dragstart={() => dragStart(card)} on:dragend={() => dragEnd()} on:dragenter={() => swapWith(card)} on:dragover|preventDefault draggable="true">
-            <SkillCard info={skills[card]}/>
+            <SkillCard info={skills[card]} minify={isMini}/>
 	    </div>
 	{/each}
 </div>

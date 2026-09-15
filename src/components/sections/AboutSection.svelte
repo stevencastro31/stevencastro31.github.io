@@ -1,12 +1,10 @@
 <script lang="ts">
 	import SectionHeader from "../common/SectionHeader.svelte";
-
-
 </script>
 
-<div class="w-screen px-8 py-16 flex flex-col lg:flex-row gap-8 justify-center items-center bg-[#1a191d]">
+<div id="about" class="w-screen px-8 py-16 flex flex-col lg:flex-row gap-8 justify-center items-center bg-[#1a191d]">
     <!-- Art -->
-    <img src="tyoudoii/usingcomputer_man_color.png" alt="man using a computer" class="max-h-100 aspect-450/400">
+    <img src="tyoudoii/usingcomputer_man_color_outlined.png" alt="man using a computer" class="max-h-100 aspect-450/400">
 
     <!-- Content -->
     <div class="max-w-full lg:max-w-2/5 text-justify">

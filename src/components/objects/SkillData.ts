@@ -117,6 +117,21 @@ export const SKILL_DATA: Record<TechnicalSkill, SkillInfo> = {
     [TechnicalSkill.DevExpress]: {
         name: "DevExpress",
         icon: "/icons/DevExpress.svg",
+    },
+    [TechnicalSkill.FastAPI]: { 
+        name: "FastAPI",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",
+    },
+    [TechnicalSkill.MSExcel]: {
+        name: "MS Excel",
+        icon: "icons/msexcel.svg",
     }
 };
-    
+
+
+
+
+          
+
+
+

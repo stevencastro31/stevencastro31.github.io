@@ -29,7 +29,7 @@ export enum TechnicalSkill {
     MongoDB,
     Firebase,
 
-    // APIs & Libraries
+    // APIs, Libraries, Tools
     Git,
     Docker,
     Github,
@@ -37,4 +37,6 @@ export enum TechnicalSkill {
     DiscordJS,
     OpenGL,
     DevExpress,
+    FastAPI,
+    MSExcel,
 }
