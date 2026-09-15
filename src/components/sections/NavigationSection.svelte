@@ -28,7 +28,7 @@
      </div>
 
     <!-- Desktop -->
-    <a href="#lead" class="hidden md:flex">
+    <a href="/#lead" class="hidden md:flex">
         <p class="h-16 text-xl w-fit p-4 text-center hover:text-blue-600 hover:bg-gray-200">Steven Castro</p>
     </a>
 

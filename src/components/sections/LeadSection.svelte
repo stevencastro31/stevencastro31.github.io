@@ -2,7 +2,7 @@
     import DownloadButton from "../common/DownloadButton.svelte";
 </script>
 
-<div id="lead" class="w-screen h-screen bg-[url(background/illia-plakhuta-n8St7X9HgLA-unsplash.jpg)] bg-cover bg-center flex flex-col items-center place-content-center">
+<div id="lead" class="w-screen h-screen bg-cover bg-center flex flex-col items-center place-content-center" style="background-image: url(background/background.webp)">
     <h1 class="text-4xl md:text-6xl lg:text-8xl text-white font-medium">Steven Jentyn Castro</h1>
     <h2 class="text-3xl md:text-4xl lg:text-5xl text-white py-4">Programmer</h2>
     <DownloadButton/>
