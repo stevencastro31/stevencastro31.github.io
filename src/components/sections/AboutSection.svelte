@@ -2,7 +2,7 @@
 	import SectionHeader from "../common/SectionHeader.svelte";
 </script>
 
-<div id="about" class="w-screen px-8 py-16 flex flex-col lg:flex-row gap-8 justify-center items-center bg-[#1a191d]">
+<div id="about" class="w-screen px-8 py-16 flex flex-col lg:flex-row gap-8 justify-center items-center">
     <!-- Art -->
     <img src="tyoudoii/usingcomputer_man_color_outlined.png" alt="man using a computer" class="max-h-100 aspect-450/400">
 

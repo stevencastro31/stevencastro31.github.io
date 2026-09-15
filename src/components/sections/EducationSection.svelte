@@ -7,7 +7,7 @@
     const items: EducationInfo[] = $derived(EDUCATION_DATA);
 </script>
 
-<div id="education" class="w-screen px-8 py-12 flex flex-col lg:flex-row-reverse justify-center items-center">
+<div id="education" class="w-screen px-8 py-12 flex flex-col lg:flex-row-reverse justify-center items-center bg-white">
     <!-- Art -->
     <img src="loosedrawing/1150.png" alt="man reading a book on top of a stack of books" class="max-h-136 aspect-square"/>
 

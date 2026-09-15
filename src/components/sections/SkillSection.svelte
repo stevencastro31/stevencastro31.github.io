@@ -6,7 +6,7 @@
     const items: SkillInfo[] = [...Object.values(SKILL_DATA)];
 </script>
 
-<div id="skills" class="w-screen px-8 py-12 flex flex-col items-center bg-[#1a191d]">
+<div id="skills" class="w-screen px-8 py-12 flex flex-col items-center">
     <h1 class="text-center text-4xl text-white font-bold mb-8 p-4 border-b-2">Skills</h1>
     <div class="w-4/5 lg:w-3/5">
         <SkillBoard skills={items}/>

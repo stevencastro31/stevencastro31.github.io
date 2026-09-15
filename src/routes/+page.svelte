@@ -14,4 +14,4 @@
 	<Section/>
 {/each}
 
-<div class="w-screen h-4"></div>
+<div class="w-screen h-4 bg-white"></div>

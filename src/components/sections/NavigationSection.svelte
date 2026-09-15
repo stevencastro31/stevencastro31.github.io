@@ -20,6 +20,9 @@
                         <p class="h-16 w-64 text-xl bg-gray-100/80 p-4 text-left border-b border-gray-500">{name}</p>
                     </a>
                 {/each}
+                <a href="/stack">
+                    <p class="h-16 w-64 text-xl bg-gray-100/80 p-4 text-left border-b border-gray-500">Stack</p>
+                </a>
             </div>
         {/if}   
      </div>
@@ -35,5 +38,8 @@
                 <p class="h-16 text-xl w-fit p-4 text-center hover:text-blue-600 hover:bg-gray-200" >{name}</p>
             </a>
         {/each}
+        <a href="/stack">
+            <p class="h-16 text-xl w-fit p-4 text-center hover:text-blue-600 hover:bg-gray-200">Stack</p>
+        </a>
     </div>
 </div>

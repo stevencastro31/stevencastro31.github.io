@@ -5,7 +5,7 @@
 
 </script>
 
-<div id="experience" class="w-screen px-8 py-16 flex flex-col lg:flex-row gap-8 justify-center items-center">
+<div id="experience" class="w-screen px-8 py-16 flex flex-col lg:flex-row gap-8 justify-center items-center bg-white">
     <!-- Art -->
     <img src="loosedrawing/987.png" alt="team building software" class="max-h-160 aspect-square">
 
