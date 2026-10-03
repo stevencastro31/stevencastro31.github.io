@@ -15,7 +15,7 @@
 
 {#each PROJECT_WORK_DATA as info, index (index)}
 	<div class="panel" class:active={isActive === items[index]} style="background-image: url({images[index]})" onclick={() => isActive = items[index]}>
-		<h3 class="bg-white h-fit overflow-hidden text-left text-lg md:text-2xl text-black px-6 py-1">{info.name}</h3>
+		<h3 class="bg-white h-fit overflow-hidden text-left text-lg md:text-2xl text-black px-6 py-1 select-none">{info.name}</h3>
         <div class="source">
             <SourceButton source={info.source}/>
         </div>
@@ -40,7 +40,7 @@
     }
 
     .panel.active {
-        flex: 4;    
+        flex: 5;   
         right: -1px;
         bottom: -1px;
     }

@@ -9,5 +9,9 @@ export const PROJECT_WORK_DATA: ProjectWorkInfo[] = [
         name: "Hornet's Calculator",
         background: "background/hornet_calculator.png",
         source: "https://github.com/stevencastro31/the-hornets-calculator",
+    }, {
+        name: "华文 Capture",
+        background: "background/huawen_capture.png",
+        source: "https://github.com/stevencastro31/hua-wen-capture",
     },
 ];
